@@ -115,6 +115,53 @@
       color: var(--text-muted);
       text-align: center;
     }
+
+    .options-section {
+      margin-bottom: 1.5rem;
+      background-color: var(--card-bg);
+      border-radius: 8px;
+      padding: 0.75rem;
+    }
+    
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
+    
+    .template-inputs {
+      margin-top: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    
+    .input-group label {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+    }
+    
+    .template-textarea {
+      width: 100%;
+      background-color: var(--bg);
+      border: 1px solid #334155;
+      color: var(--text);
+      border-radius: 6px;
+      padding: 0.5rem;
+      font-family: inherit;
+      font-size: 0.75rem;
+      resize: vertical;
+      box-sizing: border-box;
+    }
+    
+    .template-textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
   </style>
 </head>
 <body>
@@ -126,6 +173,23 @@
   <p class="description">
     Extract the main content from this page and copy it as Markdown to your clipboard.
   </p>
+
+  <div class="options-section">
+    <label class="checkbox-label">
+      <input type="checkbox" id="wrapEnabled">
+      Add Prefix/Suffix
+    </label>
+    <div id="templateInputs" class="template-inputs" style="display: none;">
+      <div class="input-group">
+        <label for="prefixText">Prefix</label>
+        <textarea id="prefixText" rows="1" class="template-textarea"></textarea>
+      </div>
+      <div class="input-group">
+        <label for="suffixText">Suffix</label>
+        <textarea id="suffixText" rows="1" class="template-textarea"></textarea>
+      </div>
+    </div>
+  </div>
 
   <button id="harvestBtn" class="button">
     <span>Harvest Content</span>
