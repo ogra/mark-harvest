@@ -28,22 +28,42 @@ chrome.storage.sync.get(['wrapEnabled', 'prefixText', 'suffixText'], (result) =>
   templateInputsDiv.style.display = wrapEnabledCheckbox.checked ? 'flex' : 'none';
 });
 
-// Save settings on change
-const saveSettings = () => {
+const TEMPLATE_SAVE_DELAY_MS = 500;
+let templateSaveTimeout: ReturnType<typeof setTimeout> | undefined;
+
+// Save low-frequency settings immediately
+const saveWrapSetting = () => {
   chrome.storage.sync.set({
-    wrapEnabled: wrapEnabledCheckbox.checked,
+    wrapEnabled: wrapEnabledCheckbox.checked
+  });
+};
+
+// Debounce high-frequency textarea updates to avoid hitting storage.sync quotas
+const saveTemplates = () => {
+  chrome.storage.sync.set({
     prefixText: prefixText.value,
     suffixText: suffixText.value
   });
 };
 
+const scheduleTemplateSave = () => {
+  if (templateSaveTimeout !== undefined) {
+    clearTimeout(templateSaveTimeout);
+  }
+
+  templateSaveTimeout = setTimeout(() => {
+    saveTemplates();
+    templateSaveTimeout = undefined;
+  }, TEMPLATE_SAVE_DELAY_MS);
+};
+
 wrapEnabledCheckbox.addEventListener('change', () => {
   templateInputsDiv.style.display = wrapEnabledCheckbox.checked ? 'flex' : 'none';
-  saveSettings();
+  saveWrapSetting();
 });
 
-prefixText.addEventListener('input', saveSettings);
-suffixText.addEventListener('input', saveSettings);
+prefixText.addEventListener('input', scheduleTemplateSave);
+suffixText.addEventListener('input', scheduleTemplateSave);
 
 harvestBtn.addEventListener('click', async () => {
   harvestBtn.disabled = true;
