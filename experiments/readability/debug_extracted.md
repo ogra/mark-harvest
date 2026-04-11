@@ -1,0 +1,107 @@
+## Artemis II mission was a triumph. Now comes the hard part
+
+7 hours ago
+
+Pallab GhoshScience correspondent
+
+![](https://static.files.bbci.co.uk/bbcdotcom/web/20260401-100641-27b89b8af6-2.44.0-3/grey-placeholder.png)![NASA via Getty Images  Earthset captured through the Orion spacecraft window](https://ichef.bbci.co.uk/news/480/cpsprodpb/8f0f/live/9544d810-34e8-11f1-bce2-613d63bea84f.jpg.webp)NASA via Getty Images
+
+Nasa's Artemis II mission has successfully sent four astronauts sweeping around the far side of the Moon and landed them safely back home.
+
+The Orion spacecraft performed admirably and the images the astronauts captured have delighted a whole new generation about the possibilities of space travel.
+
+It seems churlish to say, but looping the Moon was relatively easy. The really hard part lies ahead, so the answer is "maybe, maybe not".
+
+![](https://static.files.bbci.co.uk/bbcdotcom/web/20260401-100641-27b89b8af6-2.44.0-3/grey-placeholder.png)![NASA The lunar lander stands squat and insect‑like on spindly golden legs, its foil‑wrapped descent stage glowing copper against the ash‑grey dust. Above, the pale, faceted cabin looks almost improvised – a fragile aluminium refuge dropped into a pristine desert. The harsh sunlight carves inky black shadows beneath the lander and across the pitted regolith, where bootprints and equipment puncture an otherwise untouched plain. ](https://ichef.bbci.co.uk/news/480/cpsprodpb/03fe/live/6b1c3690-345d-11f1-9d5c-8ba507d7dbde.jpg.webp)NASA
+
+A lunar lander from the Apollo era - it was tiny compared to what is planned for the next Moon landing
+
+That didn't happen because the Apollo programme was born not from a love of exploration, but from the Cold War, to demonstrate US superiority over the Soviet Union. That feat was achieved by Armstrong's "one small step" off his lunar lander - job done.
+
+Just a few years after he planted the American flag on the lunar surface, the TV audience figures for subsequent missions plummeted and future Apollo missions were scrapped.
+
+This time, Nasa's stated ambition is different. Administrator Jared Isaacman has set out plans for one crewed lunar landing per year, beginning in 2028, with the fifth Artemis mission - planned for later that same year - marking the start of what the agency calls its Moon base.
+
+![](https://static.files.bbci.co.uk/bbcdotcom/web/20260401-100641-27b89b8af6-2.44.0-3/grey-placeholder.png)![ESA/P. Carril Under a jet‑black star‑strewn sky, an artist impression of a futuristic village sprawls across grey lunar dust. In the foreground, neat rows of blue solar panels tilt towards the distant Sun. Behind them rise transparent glass domes glowing softly from within, packed with bright green trees and crops – miniature jungles on a dead world. Bubble‑shaped habitats and silver tunnels link the base together. Tiny human figures in bulky white spacesuits tend equipment and gather beside the greenhouses. To the upper left, Earth hangs like a vivid blue‑and‑white marble above the horizon, reminding you how far from home this thriving outpost stands.](https://ichef.bbci.co.uk/news/480/cpsprodpb/61b8/live/6e09a7a0-345f-11f1-879d-1b2f5c3919b8.jpg.webp)ESA/P. Carril
+
+Concept artwork showing how Nasa plans to build a lunar base with its international partners
+
+It sounds like science fiction, but here are the words of a serious space player dealing in science fact: "The Moon economy will develop," Josef Aschbacher, Director General of the European Space Agency (ESA), tells me.
+
+"It will take time to set up the various elements, but it will develop."
+
+But as the commander of Apollo 13 famously said when his spacecraft malfunctioned on the way to the Moon: "Houston, we've had a problem..."
+
+## The lander problem
+
+To get boots on the lunar surface, Nasa needs a lander. The US space agency has contracted two private companies to build them: Elon Musk's SpaceX, whose lunar version of its Starship rocket will stand 35 metres tall, and Jeff Bezos's Blue Origin, whose Blue Moon Mark 2 craft is more compact but just as ambitious.
+
+Both are well behind schedule.
+
+Nasa's own Office of Inspector General laid out the picture starkly in a report published on 10 March. SpaceX's lunar Starship is at least two years behind its original delivery date, with further delays expected. Blue Origin's Blue Moon is at least eight months late, with nearly half the issues flagged at a 2024 design review still unresolved more than a year later.
+
+*   [In pictures: Artemis II crew witness 'Earthset' and a solar eclipse](https://www.bbc.co.uk/news/resources/idt-16b00b19-21d0-4108-96e8-38bb7e4846c6)
+*   [Artemis II: Inside Nasa's mission to take humans back to the Moon](https://www.bbc.co.uk/news/resources/idt-86aafe5a-17e2-479c-9e12-3a7a41e10e9e)
+*   [Has Artemis II shown we can land on the Moon again?](https://www.bbc.co.uk/news/articles/cj60nkd8nrko)
+
+These landers are very different to the compact Eagle module that carried Armstrong and Aldrin to the surface in 1969 and which was just big enough to transport two men to collect some rocks and return.
+
+The new landers must carry very significant amounts of infrastructure - equipment, pressurised rovers, the early components of a base. And carrying that amount of mass requires enormous amounts of propellant, far more than can be launched in a single rocket.
+
+![](https://static.files.bbci.co.uk/bbcdotcom/web/20260401-100641-27b89b8af6-2.44.0-3/grey-placeholder.png)![SpaceX A computer-generated illustration depicts a large, gleaming silver spacecraft against the black void of space, with the curved grey surface of the Moon visible below. The spacecraft is enormous: a sleek, cylindrical structure dominated by a rounded nosecone at the top, where the crew compartment is located some 35 metres above the lander's base. Fins extend from the lower section. Stars and the distant Earth are just visible in the background. ](https://ichef.bbci.co.uk/news/480/cpsprodpb/b671/live/6fca23b0-345c-11f1-879d-1b2f5c3919b8.jpg.webp)SpaceX
+
+Artwork showing Elon Musk's SpaceX lander. Still not built but due to be tested next year...
+
+![](https://static.files.bbci.co.uk/bbcdotcom/web/20260401-100641-27b89b8af6-2.44.0-3/grey-placeholder.png)![Blue Origin A tall, spindly spacecraft stands alone on a bleak grey plain under a black, star‑filled sky. This is Blue Origin’s Blue Moon lander: a white, boxy lower stage on four delicate legs, topped by a rounded cabin like a silver lighthouse. Bulging metallic tanks cling to its sides, catching harsh moonlight. A small ladder unfolds to the dust, where two astronauts in chunky white suits work beside scientific gear, their shadows stretching long across the cratered surface. The surrounding landscape is empty, rolling gently away into darkness, emphasising how exposed and futuristic this gleaming machine appears.](https://ichef.bbci.co.uk/news/480/cpsprodpb/92d8/live/70a86700-3462-11f1-879d-1b2f5c3919b8.jpg.webp)Blue Origin
+
+... also behind schedule is Jeff Bezos's Blue Origin's Blue Moon (illustrated here)
+
+The Artemis programme intends to store all this propellant in a depot, which will orbit around the Earth and will be topped up by more than 10 separate tanker flights, all launched at regular intervals over months. The plan looks elegant but is fiendishly difficult.
+
+Keeping super-cold liquid oxygen and methane stable in the vacuum of space, then transferring them between spacecraft, is one of the most demanding engineering challenges in the programme.
+
+"From a physics point of view it makes sense," says Dr Simeon Barber, a space scientist from the Open University. But he points out that the launch of Artemis II was delayed twice this year, before it eventually took off because of fuelling issues.
+
+"If it's difficult to do in the launch pad, it's going to be much more difficult to do in orbit," he says.
+
+The next Artemis mission - Artemis III - is designed to test how the Orion crew capsule docks in Earth orbit with one or both landers. It is scheduled for mid-2027. Given that Starship has not yet completed a successful orbital flight and Blue Origin's New Glenn rocket has managed just two launches, this target looks, as Barber puts it, "a very steep ask".
+
+## The new space race
+
+Nasa has kept its 2028 target for a first Artemis Moon landing in part for political reasons - it now aligns with President Trump's renewed space policy, which calls for Americans to be back on the lunar surface by 2028 – a deadline that falls within his current term of office, due to end that year.
+
+Independent analysts don't believe the target is realistic. But Congress has backed the date with billions of dollars of taxpayers' money, partly because there is a new competitor on the horizon.
+
+![](https://static.files.bbci.co.uk/bbcdotcom/web/20260401-100641-27b89b8af6-2.44.0-3/grey-placeholder.png)![VCG / China Manned Space Agency A dramatic launch photograph taken from ground level shows a large white rocket rising from its launch pad on a column of brilliant orange and white fire. Dense clouds of white smoke and steam billow outward from the base of the rocket across the concrete launch platform, which sits within a tropical coastal landscape — palm trees and a clear blue sky are visible in the background](https://ichef.bbci.co.uk/news/480/cpsprodpb/6c10/live/fe3d21c0-3460-11f1-9d5c-8ba507d7dbde.jpg.webp)VCG / China Manned Space Agency
+
+A test flight of China's Long March 10 rocket, the vehicle designed to carry Chinese astronauts to the Moon
+
+China's emergence this century as an economic and military superpower has also seen its space capabilities accelerate rapidly, and it now has a stated aim of landing an astronaut on the Moon by around 2030.
+
+If the Artemis timetable slips, as many experts believe it will, China could get to the Moon first. Its approach is simpler. It uses two rockets, a separate crew module and lander, and avoids the in-orbit refuelling complexity of the American plan.
+
+## Mars - the distant dream
+
+Beyond the Moon lies Mars.
+
+Musk has spoken of getting humans to the Red Planet before the end of this decade.
+
+Many experts believe it is far more likely to be the 2040s at the earliest. The journey alone - seven to nine months, through intense radiation, and with no possibility of rescue - presents challenges that dwarf anything involved in getting to the Moon.
+
+Mars's thin atmosphere makes landing a full-sized, crewed spacecraft - and then launching it again - a problem of staggering complexity.
+
+![](https://static.files.bbci.co.uk/bbcdotcom/web/20260401-100641-27b89b8af6-2.44.0-3/grey-placeholder.png)![NASA Mars hangs alone against blackness, a glowing, rust‑red marble. The planet’s face is dominated by a vast, soft‑edged orange desert shaped like a sideways Africa. Smoky dark streaks – ancient canyons and volcanic plains – curl around its lower half. Near the top and right edge, bright white clouds and haze cling to the thin atmosphere like torn cotton. A faint bluish rim outlines the curve of the planet, emphasising its roundness and the delicate shell of air wrapped around it.](https://ichef.bbci.co.uk/news/480/cpsprodpb/3351/live/31bd6b20-3463-11f1-8606-05fe34b06e1b.jpg.webp)NASA
+
+Mars awaits, but is it a step too far for human exploration?
+
+Artemis II has put human spaceflight back on the agenda. Private companies are building rockets and landers with genuine urgency. Europe is actively debating how deeply to engage.
+
+As I drove around the Kennedy Space Centre after the launch of the Artemis mission, I was struck by the new buildings put up by Blue Origin and others in construction by SpaceX: private sector infrastructure nestling close to a government agency that once sent astronauts to the Moon.
+
+Even if the timetables slip, this new partnership feels like something special is happening on the Florida coast - and Nasa has already got some of its old mojo back.
+
+ESA astronaut Alexander Gerst once told Aschbacher, after returning from the International Space Station, that the view from space changes everything.
+
+Gerst told the ESA boss that he wishes all eight billion people on Earth could go to space just once and see what he saw - a small, fragile, beautiful planet, cared for not nearly well enough by the species lucky enough to live on it.
+
+"That," says Aschbacher, "would create a very different life on planet Earth."
