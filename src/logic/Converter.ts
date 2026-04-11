@@ -12,8 +12,11 @@ export class Converter {
    * Includes a header with title and URL.
    */
   static toMarkdown(data: ExtractedContent): string {
-    const markdown = this.turndownService.turndown(data.content);
-    
+    let markdown = this.turndownService.turndown(data.content);
+
+    // Remove non-breaking space at the end of lines
+    // (\xA0, right before \r\n or end of string)
+    markdown = markdown.replace(/\xA0+(?=\r?\n|$)/g, '');
     // Construct the final markdown with metadata
     const header = [
       `# ${data.title}\n`,
