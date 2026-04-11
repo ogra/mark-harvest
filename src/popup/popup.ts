@@ -18,31 +18,24 @@ function setStatus(message: string, type: 'success' | 'error' | '' = '') {
 const DEFAULT_PREFIX = "```markdown\n";
 const DEFAULT_SUFFIX = "\n```";
 
-// Load saved settings
-chrome.storage.sync.get(['wrapEnabled', 'prefixText', 'suffixText'], (result) => {
-  wrapEnabledCheckbox.checked = Boolean(result.wrapEnabled || false);
-  prefixText.value = result.prefixText !== undefined ? String(result.prefixText) : DEFAULT_PREFIX;
-  suffixText.value = result.suffixText !== undefined ? String(result.suffixText) : DEFAULT_SUFFIX;
-  
-  // Toggle visibility on load
-  templateInputsDiv.style.display = wrapEnabledCheckbox.checked ? 'flex' : 'none';
-});
-
 const TEMPLATE_SAVE_DELAY_MS = 500;
 let templateSaveTimeout: ReturnType<typeof setTimeout> | undefined;
 
 // Save low-frequency settings immediately
 const saveWrapSetting = () => {
-  chrome.storage.sync.set({
-    wrapEnabled: wrapEnabledCheckbox.checked
+  chrome.storage.sync.set({ wrapEnabled: wrapEnabledCheckbox.checked }, () => {
+    if (chrome.runtime.lastError) {
+      setStatus(`Error saving settings: ${chrome.runtime.lastError.message}`, 'error');
+    }
   });
 };
 
 // Debounce high-frequency textarea updates to avoid hitting storage.sync quotas
 const saveTemplates = () => {
-  chrome.storage.sync.set({
-    prefixText: prefixText.value,
-    suffixText: suffixText.value
+  chrome.storage.sync.set({ prefixText: prefixText.value, suffixText: suffixText.value }, () => {
+    if (chrome.runtime.lastError) {
+      setStatus(`Error saving templates: ${chrome.runtime.lastError.message}`, 'error');
+    }
   });
 };
 
@@ -57,13 +50,29 @@ const scheduleTemplateSave = () => {
   }, TEMPLATE_SAVE_DELAY_MS);
 };
 
-wrapEnabledCheckbox.addEventListener('change', () => {
-  templateInputsDiv.style.display = wrapEnabledCheckbox.checked ? 'flex' : 'none';
-  saveWrapSetting();
-});
+// Load saved settings, then register event listeners to prevent async race conditions
+chrome.storage.sync.get(['wrapEnabled', 'prefixText', 'suffixText'], (result) => {
+  if (chrome.runtime.lastError) {
+    setStatus(`Error loading settings: ${chrome.runtime.lastError.message}`, 'error');
+  }
 
-prefixText.addEventListener('input', scheduleTemplateSave);
-suffixText.addEventListener('input', scheduleTemplateSave);
+  wrapEnabledCheckbox.checked = Boolean(result.wrapEnabled || false);
+  prefixText.value = result.prefixText !== undefined ? String(result.prefixText) : DEFAULT_PREFIX;
+  suffixText.value = result.suffixText !== undefined ? String(result.suffixText) : DEFAULT_SUFFIX;
+
+  // Toggle visibility on load
+  templateInputsDiv.style.display = wrapEnabledCheckbox.checked ? 'flex' : 'none';
+
+  // Register listeners only after settings are loaded to prevent user interactions
+  // from being overwritten when the async storage.get callback applies stored values
+  wrapEnabledCheckbox.addEventListener('change', () => {
+    templateInputsDiv.style.display = wrapEnabledCheckbox.checked ? 'flex' : 'none';
+    saveWrapSetting();
+  });
+
+  prefixText.addEventListener('input', scheduleTemplateSave);
+  suffixText.addEventListener('input', scheduleTemplateSave);
+});
 
 harvestBtn.addEventListener('click', async () => {
   harvestBtn.disabled = true;
