@@ -1,10 +1,10 @@
-import TurndownService from 'turndown';
-import { ExtractedContent } from './Extractor';
+import TurndownService from "turndown";
+import { ExtractedContent } from "./Extractor";
 
 export class Converter {
   private static turndownService = new TurndownService({
-    headingStyle: 'atx',
-    codeBlockStyle: 'fenced',
+    headingStyle: "atx",
+    codeBlockStyle: "fenced",
   });
 
   /**
@@ -16,16 +16,19 @@ export class Converter {
 
     // Remove non-breaking space at the end of lines
     // (\xA0, right before \r\n or end of string)
-    markdown = markdown.replace(/\xA0+(?=\r?\n|$)/g, '');
+    markdown = markdown.replace(/\xA0+(?=\r?\n|$)/g, "");
     // Construct the final markdown with metadata
     const header = [
       `# ${data.title}\n`,
-      data.byline ? `By: ${data.byline}\n` : '',
+      data.excerpt ? `> ${data.excerpt}\n` : "",
+      data.byline ? `By: ${data.byline}\n` : "",
       `URL: ${data.url}\n`,
-      '---',
-      '\n',
-      ''
-    ].filter(line => line !== '').join('\n');
+      "---",
+      "\n",
+      "",
+    ]
+      .filter((line) => line !== "")
+      .join("\n");
 
     return `${header}${markdown}`;
   }
