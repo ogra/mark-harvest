@@ -22,7 +22,7 @@ export class Converter {
       `# ${data.title}\n`,
       data.excerpt ? `> ${data.excerpt}\n` : "",
       data.byline ? `By: ${data.byline}\n` : "",
-      `URL: ${data.url}\n`,
+      `URL: <${data.url}>\n`,
       "---",
       "\n",
       "",
